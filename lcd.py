@@ -8,4 +8,4 @@ lcd.lcd_clear();
 GPIO.setwarnings(False)
 GPIO.setmode(GPIO.BCM)
 
-lcd.lcd_display_string("Hello World!") 
+lcd.lcd_display_string("Hello World!", 1) 
